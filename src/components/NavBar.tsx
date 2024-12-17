@@ -7,8 +7,8 @@ const NavBar = () => {
   const NavContainerRef = useRef<any>();
   const audioElementRef = useRef<any>(null);
 
-  const [isAuioPlaying, setIsAuioPlaying] = useState(true);
-  const [isIndicatorActive, setIsIndicatorActive] = useState(true);
+  const [isAuioPlaying, setIsAuioPlaying] = useState(false);
+  const [isIndicatorActive, setIsIndicatorActive] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [isNavVisible, setIsNavVisible] = useState(true);
 
